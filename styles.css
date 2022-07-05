@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ccc;
+}
+
+.body2{
+    background: #fcfcfc;
+}
+.cardLogin{
+margin-top: 500px;
+background-color: turquoise;
+}
+
+
+/* START NAV-BAR AND HEADER */
+header{
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.selectFromto{
+ align-items: center;  
+ margin-top: 10px; 
+}
+.selectTo{
+    margin-top: 10px ;
+    align-items: center;
+}
+#cardlogin{
+    margin-top: 150px;
+    justify-content: center;
+    transition: all;
+    background-color: azure;
+    width: 1000px;
+    text-align: center;
+    opacity: .7;
+    margin-left: 350px;
+    border-radius: 20px;
+
+
+  
+}
+
+
+
+
+/* START FOOTER */
+#footer {
+    background: linear-gradient(90deg, #b2a8a8, #cad1d7 25%, #ffffff);
+    margin-top: 150px;
+}
+
+#footer a, h6 {
+    text-decoration: none;
+    color: #000;
+}
+
+#footer h6 i{
+    font-size: 20px;
+}
+
+#footer a{
+    color: #000;
+}
+
+#footer a:hover{
+    color: #5590f0;
+}
+/* END FOOTER */
